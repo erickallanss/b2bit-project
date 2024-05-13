@@ -1,6 +1,7 @@
 ## Projeto para processo seletivo da B2Bit
 
-### Proposta: Desenvolver interface de login, com funcionalidades de autenticação, persistência de token no local storage, fazer logout usando uma API externa para a autenticação, incluir testes e tailwindcss. O projeto deve ser feito em React JS com Typescript.
+### Proposta: 
+Desenvolver interface de login, com funcionalidades de autenticação, persistência de token no local storage, fazer logout usando uma API externa para a autenticação, incluir testes e tailwindcss. O projeto deve ser feito em React JS com Typescript.
 
 ### Dados para autenticação:
 - email: cliente@youdrive.com
