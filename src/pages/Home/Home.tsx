@@ -44,7 +44,7 @@ const Home: React.FC = () => {
         {profile && (
         <ProfileInfo 
           name={profile.name ?? 'Nome não disponível'} 
-          email={profile?.email ?? "Email não disponível."} 
+          email={profile.email ?? "Email não disponível."} 
           avatar={profile.avatar ?? "Avatar não disponível."}
         /> 
         )}
