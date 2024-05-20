@@ -1,7 +1,7 @@
 ## Projeto para processo seletivo da B2Bit
 
 ### Proposta: 
-Este projeto é uma aplicação de demonstração criada como parte de um desafio de código para um processo seletivo da empresa B2Bit. A aplicação é uma interface simples de login e perfil de usuário, construída com React e TypeScript, e testada com Cypress.
+Este projeto é uma aplicação de demonstração criada como desafio de código para o processo seletivo da empresa B2Bit. A aplicação é uma interface simples de login e perfil de usuário, construída com ReactJS, usando CRA (create-react-app) com template TypeScript, além de tailwindcss, axios, e testada com Cypress. 
 
 ### Dados para autenticação:
 - email: cliente@youdrive.com
@@ -27,7 +27,7 @@ Este projeto é uma aplicação de demonstração criada como parte de um desafi
 - **Node.js**
 - **npm**
 
-1. Clone o repositório
+1. Clone o repositório e entre na pasta do projeto
 ```bash
 git clone https://github.com/seu-usuario/b2bit-code-challenge.git
 cd b2bit-code-challenge
@@ -38,16 +38,16 @@ cd b2bit-code-challenge
 npm install
 ```
 
-3. Execute os testes
-```bash
-npm run cypress:run
-```
-
-4. Execute a aplicação
+3. Execute a aplicação
 ```bash
 npm start
 ```
 
+4. Execute os testes
+```bash
+npm run cypress:run
+```
+
 ### Deploy
-Foi feito deploy utilizando a plataforma Netlify:
+O deploy foi feito utilizando a plataforma Netlify, conferindo deploy contínuo devido à integração com o Github.
 [https://b2bitproject.netlify.app/]
