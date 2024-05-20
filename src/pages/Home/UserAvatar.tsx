@@ -1,6 +1,6 @@
 import { AvatarProps } from "../../interfaces/ProfileInterfaces";
 
-const UserAvatar: React.FC<AvatarProps> = ({ url, alt = 'Avatar pricture' }) => {
+const UserAvatar: React.FC<AvatarProps> = ({ url, alt = 'Avatar picture' }) => {
   return (
     <div className="w-full">
       <div className="w-full text-center mb-3">Profile picture</div>

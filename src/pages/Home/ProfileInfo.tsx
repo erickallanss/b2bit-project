@@ -5,7 +5,7 @@ import { ProfileData } from '../../interfaces/ProfileInterfaces';
 const ProfileInfo: React.FC<ProfileData> = ({ name, email, avatar }) => {
   return (
     <div className="w-full max-w-md bg-white p-9 rounded-xl shadow-dark shadow-[0_0_10px_rgba(0,0,0,0.2)]">
-      <UserAvatar url={avatar.high} alt={name} />
+      <UserAvatar url={avatar.high} alt={'Profile picture'} />
       <div>
         <form className='flex flex-col'>
           <label className='w-full text-left text-md mt-5 mb-1'>

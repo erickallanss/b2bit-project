@@ -1,5 +1,5 @@
 // src/context/AuthContext.tsx
-import React, { createContext, useState, useContext, ReactNode } from 'react';
+import React, { createContext, useState, useContext } from 'react';
 import { login as loginService } from '../services/authService';
 import { AuthContextData, AuthProviderProps } from '../interfaces/ContextInterfaces';
 

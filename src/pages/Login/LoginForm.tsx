@@ -29,7 +29,7 @@ const LoginForm: React.FC = () => {
     <form className='flex flex-col items-center' onSubmit={handleSubmit}>
       <InputField 
         label="E-mail" 
-        type="text" 
+        type="email" 
         placeholder="@gmail.com" 
         value={email} 
         onChange={(e) => setEmail(e.target.value)} 
