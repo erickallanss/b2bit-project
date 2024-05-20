@@ -7,7 +7,7 @@ describe('Testing elements and behavior in login page', () => {
     cy.get('img[alt="B2Bit Logo"]').should('be.visible'); // Verifica se a logo está visível
     cy.get('form').should('be.visible');
     cy.get('label').contains('E-mail').should('be.visible');
-    cy.get('input[type="email"]').should('be.visible');
+    cy.get('input[type="text"]').should('be.visible');
     cy.get('label').contains('Password').should('be.visible');
     cy.get('input[type="password"]').should('be.visible');
     cy.contains('button', 'Sign In').should('be.visible');
@@ -20,7 +20,7 @@ describe('Testing elements and behavior in login page', () => {
       '/auth/login', {
       statusCode: 200,
     }).as('loginRequest');
-    cy.get('input[type="email"]').type('user@email.com');
+    cy.get('input[type="text"]').type('user@email.com');
     cy.get('input[type="password"]').type('password');
     cy.get('button[type="submit"]').click();
     cy.wait('@loginRequest').its('response.statusCode').should('eq', 200);
@@ -33,7 +33,7 @@ describe('Testing elements and behavior in login page', () => {
       statusCode: 401,
       body: { message: 'Authentication error. Try again.' }
     }).as('loginRequest');
-    cy.get('input[type="email"]').type('cliente@youdrive.com');
+    cy.get('input[type="text"]').type('cliente@youdrive.com');
     cy.get('input[type="password"]').type('wrongpassword');
     cy.get('button[type="submit"]').click();
     cy.wait('@loginRequest').its('response.statusCode').should('eq', 401);

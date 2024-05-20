@@ -3,7 +3,7 @@
 describe('Testing elements and behavior in profile page', () => {
     beforeEach(() => {
         cy.visit('http://localhost:3000/login');
-        cy.get('input[type="email"]').type('cliente@youdrive.com');
+        cy.get('input[type="text"]').type('cliente@youdrive.com');
         cy.get('input[type="password"]').type('password');
         cy.get('button[type="submit"]').click();
     });
