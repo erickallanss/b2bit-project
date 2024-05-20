@@ -25,7 +25,7 @@ Este projeto é uma aplicação de demonstração criada como parte de um desafi
 ## Rodando a aplicação
 ### Pré-requisitos
 - **Node.js**
-- **npm** ou **yarn**
+- **npm**
 
 1. Clone o repositório
 ```bash
